@@ -87,10 +87,11 @@ header{
 	width: 70%;
 	display: flex;
 	justify-content: space-between;
+    font-weight: bold;
 }
 
 #nav-content a{
-	color: gray;
+	color: silver;
 	justify-content: space-between;
 	text-decoration: none;
 }
@@ -198,7 +199,7 @@ hr{
 	width: 47%;
 }
 
-/*TABLET 500PX MEDIA QUERY STYLING HERE*/
+/*MOBILE 500PX MEDIA QUERY STYLING HERE*/
 
 @media(max-width:500px){
 
@@ -206,23 +207,41 @@ hr{
         flex-direction: column-reverse;
     }
     
+    #logo{
+        transform: scale(2.2);
+        margin: 19% 0;
+    }
+
     #nav-content{
         flex-direction: column;
+        width: 100%;
         justify-content: space-around;
         align-items: center;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid dimgray;
     }
     nav a{
-        border-top: 1px solid black;
+        border-top: 1px solid dimgray;
         width: 100%;
         font-size: 1.2rem;
         text-align: center;
-        padding: 4% 0;
+        padding: 5% 0;
         margin: 0 auto;
     }
 
     #circle-image{
         display:none;
+    }
+
+    .section1{
+        margin-bottom: 12%;
+    }
+
+    .section1 button{
+        margin: 5% 0;
+    }
+
+    #h1andbutton{
+        margin: 5% 0 10%;
     }
 
     .section2, .section3{
@@ -237,11 +256,19 @@ hr{
     }
 
     .content,footer h3{
-        padding: 3% 0;
+        padding: 2.5% 0;
+    }
+
+    footer h3{
+        padding-top: 5%;
+    }
+
+    footer p{
+        margin: 4% 0;
     }
 
     #copywright{
-        padding: 5% 0;
+        padding: 7% 0 7%;
     }
 
 

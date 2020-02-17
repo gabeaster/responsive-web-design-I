@@ -198,9 +198,9 @@ hr{
 	width: 47%;
 }
 
-/*TABLET 800PX MEDIA QUERY STYLING HERE*/
+/*TABLET 500PX MEDIA QUERY STYLING HERE*/
 
-@media(max-width:800px){
+@media(max-width:500px){
 
     header{
         flex-direction: column-reverse;
